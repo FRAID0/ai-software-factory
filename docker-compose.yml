@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  factory-core:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai_software_factory_core
+    environment:
+      - FACTORY_ENV=development
+      - LOG_LEVEL=DEBUG
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    command: ["python", "-m", "scripts.verify_setup"]
+    restart: unless-stopped
