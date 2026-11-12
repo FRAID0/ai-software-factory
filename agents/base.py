@@ -84,3 +84,4 @@ class GenericAgent(BaseAgent):
                 errors=[str(exc)],
                 execution_time_seconds=round(elapsed, 3),
             )
+

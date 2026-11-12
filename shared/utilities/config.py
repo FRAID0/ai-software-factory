@@ -48,3 +48,4 @@ class AppConfig(BaseModel):
 def get_config() -> AppConfig:
     """Returns a cached singleton configuration instance."""
     return AppConfig()
+

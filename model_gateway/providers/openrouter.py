@@ -90,3 +90,4 @@ class OpenRouterProvider(AbstractProviderAdapter):
             raise ProviderUnavailableError(f"OpenRouter request timed out: {exc}") from exc
         except httpx.RequestError as exc:
             raise ProviderUnavailableError(f"Network error calling OpenRouter: {exc}") from exc
+

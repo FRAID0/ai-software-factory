@@ -36,3 +36,4 @@ class MockProvider(AbstractProviderAdapter):
                 estimated_cost_usd=0.0,
             ),
         )
+

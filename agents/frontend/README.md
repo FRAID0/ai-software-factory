@@ -9,3 +9,4 @@
 - **Input**: UI wireframes/prompts, API schemas, design guidelines.
 - **Output**: Frontend code (React/Vue/HTML/CSS), build configs, client tests.
 - **Capability Requirements**: High code generation, component architecture understanding.
+

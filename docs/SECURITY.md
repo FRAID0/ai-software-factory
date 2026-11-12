@@ -28,3 +28,4 @@ The AI Software Factory generates and executes code. This requires strict securi
 - **Containerization**: Execution tasks occur within minimal runtime containers (e.g. `python:3.12-alpine`).
 - **Filesystem**: Working directory mounted as temporary `tmpfs` volume or isolated workspace subpath.
 - **Auditing**: All stdout, stderr, exit codes, and resource metrics are logged to immutable structured logs for audit review.
+

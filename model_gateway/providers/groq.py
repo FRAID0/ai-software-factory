@@ -80,3 +80,4 @@ class GroqProvider(AbstractProviderAdapter):
             raise ProviderUnavailableError(f"Groq request timed out: {exc}") from exc
         except httpx.RequestError as exc:
             raise ProviderUnavailableError(f"Network error calling Groq: {exc}") from exc
+

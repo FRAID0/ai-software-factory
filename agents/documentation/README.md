@@ -9,3 +9,4 @@
 - **Input**: Source code, specs, configuration templates, test outputs.
 - **Output**: Markdown documentation files, API references, quickstart guides.
 - **Capability Requirements**: High prose clarity, technical accuracy, markdown formatting.
+

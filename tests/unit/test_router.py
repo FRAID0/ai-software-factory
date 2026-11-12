@@ -29,3 +29,4 @@ def test_router_returns_none_when_no_match() -> None:
 
     route = router.resolve_route(ModelCapability.CODE_GENERATION, available)
     assert route is None
+

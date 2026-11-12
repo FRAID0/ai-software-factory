@@ -50,3 +50,4 @@ This roadmap outlines the phased development from the initial bootstrap to full 
 - [ ] Full loop: User prompt -> Architecture -> Code -> Tests -> Sandbox verify -> Git release
 - [ ] Feedback loops: Automated self-healing when tests fail in the sandbox
 - [ ] Performance profiling and cost optimization dashboard
+

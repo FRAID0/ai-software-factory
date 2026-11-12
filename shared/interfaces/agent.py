@@ -27,3 +27,4 @@ class BaseAgent(ABC):
         generates domain artifacts, and returns structured results.
         """
         pass
+

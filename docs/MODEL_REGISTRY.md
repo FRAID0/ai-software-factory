@@ -41,3 +41,4 @@ The `ModelRouter` inspects incoming task requirements and routes to the optimal 
         ├── Low-Cost / Free Verification Checks ──> Free Tier (e.g. OpenRouter Free Models)
         └── Fallback upon Rate Limit / Error ───> Secondary Provider
 ```
+

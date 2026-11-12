@@ -33,3 +33,4 @@ class AbstractProviderAdapter(BaseLLMProvider):
 
     async def complete(self, request: ModelRequest) -> ModelResponse:
         return await self.execute_with_timing(request)
+

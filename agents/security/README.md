@@ -10,3 +10,4 @@
 - **Input**: Complete generated codebase, configuration files, and package manifests.
 - **Output**: Security audit reports, vulnerability scorecards, patch diffs.
 - **Capability Requirements**: High security domain reasoning, deep vulnerability knowledge.
+

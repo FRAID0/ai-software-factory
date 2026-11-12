@@ -17,3 +17,4 @@ services:
     working_dir: /workspace
     command: ["python", "-m", "scripts.verify_setup"]
     restart: unless-stopped
+

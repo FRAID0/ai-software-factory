@@ -12,3 +12,4 @@ The **Orchestrator** is the central mission controller of the AI Software Factor
 ## Implementation Architecture
 - `engine.py`: Core `OrchestratorEngine` executing tasks according to topological order.
 - Future phases will add distributed execution queues, state persistence (SQLite/PostgreSQL), and human-in-the-loop checkpoints.
+

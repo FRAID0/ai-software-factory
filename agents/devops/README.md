@@ -9,3 +9,4 @@
 - **Input**: Tech stack definition, target runtime, deployment environment.
 - **Output**: Production-grade Dockerfiles, Compose specs, CI/CD pipeline files.
 - **Capability Requirements**: Configuration accuracy, security best practices.
+

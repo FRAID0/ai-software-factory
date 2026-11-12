@@ -10,3 +10,4 @@
 - **Input**: Source code, API schemas, behavioral requirements.
 - **Output**: Test files (e.g. `pytest` suites), test coverage reports, failure diagnoses.
 - **Capability Requirements**: High logical reasoning, test design patterns.
+

@@ -10,3 +10,4 @@
 - **Input**: Architecture spec, API schema, database schema.
 - **Output**: Source code modules, dependency manifests, database migration files.
 - **Capability Requirements**: High code generation accuracy, strict syntax validation.
+

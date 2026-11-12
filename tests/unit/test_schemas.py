@@ -52,3 +52,4 @@ def test_agent_task_lifecycle() -> None:
     )
     assert result.status == TaskStatus.COMPLETED
     assert "users" in result.output_data["tables"]
+

@@ -87,3 +87,4 @@ class AgentResult(BaseModel):
     artifacts: list[str] = Field(default_factory=list)
     errors: list[str] = Field(default_factory=list)
     execution_time_seconds: float = 0.0
+

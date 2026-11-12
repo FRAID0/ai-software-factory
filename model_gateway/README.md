@@ -13,3 +13,4 @@ The **Model Gateway** is the unified access layer for all LLM inference in the A
 - `routing/`: Dynamic task-to-model selection logic.
 - `exceptions.py`: Standardized domain exceptions (`RateLimitError`, `ProviderError`, `AuthenticationError`).
 - `gateway.py`: The orchestrating entry point managing adapters and retries.
+

@@ -19,3 +19,4 @@ def setup_logging(level: str = "INFO") -> None:
 def get_logger(name: str) -> logging.Logger:
     """Retrieves a named logger instance."""
     return logging.getLogger(name)
+

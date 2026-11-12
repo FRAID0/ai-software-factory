@@ -19,3 +19,4 @@ RUN pip install --upgrade pip && \
 COPY . .
 
 CMD ["python", "-m", "scripts.verify_setup"]
+

@@ -10,3 +10,4 @@
 - **Input**: User requirement specifications, target platforms, performance criteria.
 - **Output**: `AgentResult` containing architecture blueprints and task DAG definitions.
 - **Capability Requirements**: High reasoning, structured outputs, large context window.
+

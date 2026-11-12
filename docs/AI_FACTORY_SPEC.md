@@ -67,3 +67,4 @@ Before any generated output transitions between phases, it must satisfy specific
 2. **Contract Gate**: Generated API schemas must conform to the architectural specifications.
 3. **Security Gate**: No hardcoded credentials, known vulnerable patterns, or insecure dependencies.
 4. **Functional Gate**: Automated test suites executed in the sandbox must pass with 100% exit code 0.
+

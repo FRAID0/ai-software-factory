@@ -94,3 +94,4 @@ class GeminiProvider(AbstractProviderAdapter):
             raise ProviderUnavailableError(f"Gemini request timed out: {exc}") from exc
         except httpx.RequestError as exc:
             raise ProviderUnavailableError(f"Network error calling Gemini: {exc}") from exc
+

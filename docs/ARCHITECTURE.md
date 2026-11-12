@@ -53,3 +53,4 @@ The AI Software Factory adheres to **Clean Architecture** and **SOLID** principl
 4. **Model Invocation**: Agents request LLM completions through the `ModelGateway.complete()` interface without needing to know which provider is serving the request.
 5. **Execution Verification**: Artifacts generated (code, tests) are staged into the `Sandbox` for compilation and test execution.
 6. **State Convergence**: Once all verification gates pass, the orchestrator packages the finalized project.
+

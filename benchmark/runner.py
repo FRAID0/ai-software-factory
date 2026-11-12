@@ -76,3 +76,4 @@ class BenchmarkRunner:
             )
             self.results.append(failed_metric)
             return failed_metric
+

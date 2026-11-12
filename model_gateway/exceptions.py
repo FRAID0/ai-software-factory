@@ -28,3 +28,4 @@ class ModelNotFoundError(GatewayError):
 class RoutingError(GatewayError):
     """Raised when no provider can be resolved for a specific task capability."""
     pass
+

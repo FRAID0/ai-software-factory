@@ -53,3 +53,4 @@ class ModelRouter:
 
         logger.warning("No available provider found matching capability: %s", capability.value)
         return None
+

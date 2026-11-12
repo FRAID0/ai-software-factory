@@ -8,3 +8,4 @@ The **Sandbox** provides an isolated, audited, and resource-bounded execution bo
 3. **Network Isolation**: By default, `--network none` is enforced to prevent unauthorized data exfiltration or reverse shells.
 4. **Credential Isolation**: Host secrets and LLM API keys are NEVER mounted or passed into sandbox containers.
 5. **Read-Only Root Filesystem**: Writes are restricted strictly to an ephemeral workspace directory.
+
